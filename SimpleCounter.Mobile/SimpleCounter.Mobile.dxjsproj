@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>08820238-6e2f-42e5-86b3-4b36427797c2</ProjectGuid>
+    <AutoAssignPort>True</AutoAssignPort>
+    <RunInSimulator>True</RunInSimulator>
+    <RootNamespace>SimpleCounter</RootNamespace>
+    <ApplicationPage>index.html</ApplicationPage>
+    <Name>SimpleCounter.Mobile</Name>
+    <DebugSitePortNumber>50000</DebugSitePortNumber>
+    <UseWebDev>False</UseWebDev>
+    <DefaultDevice>androidPhone</DefaultDevice>
+    <DeviceOrientation>Landscape</DeviceOrientation>
+    <XapPackagePublisherID>{b3d0bf75-a4a7-4852-932d-baf73e6fe56e}</XapPackagePublisherID>
+    <XapPackageProductID>{2ab34b3d-17e1-4245-beb4-812c3d9f8b1b}</XapPackageProductID>
+    <ScreenOrientation>Landscape</ScreenOrientation>
+    <ApplicationTitle>Tap To Count</ApplicationTitle>
+    <BundleIdentifier>SimpleCounter.Mobile</BundleIdentifier>
+    <VersionPackage>1.0</VersionPackage>
+    <ShowSplashScreen>True</ShowSplashScreen>
+    <Accelerometer>False</Accelerometer>
+    <Camera>False</Camera>
+    <Capture>False</Capture>
+    <Compass>False</Compass>
+    <Connection>False</Connection>
+    <Contacts>False</Contacts>
+    <Device>False</Device>
+    <Events>False</Events>
+    <File>False</File>
+    <Geolocation>False</Geolocation>
+    <Media>False</Media>
+    <Notification>True</Notification>
+    <Storage>False</Storage>
+    <WhiteList />
+    <KeyApkPath>certificates\android_certificate.p12</KeyApkPath>
+    <KeyApkAlias>tmpl</KeyApkAlias>
+    <ApkDexFilePackageName>app.id_0ad6010554314703a6b472478f8f203d</ApkDexFilePackageName>
+    <VersionCode>1</VersionCode>
+    <TemplateFileApk />
+    <UseCustomTemplateNameApk>False</UseCustomTemplateNameApk>
+    <KeyIpaPath />
+    <ProvisionProfile />
+    <IpaPrivateKeyFile />
+    <TemplateFileIpa />
+    <UseCustomTemplateNameIpa>False</UseCustomTemplateNameIpa>
+    <IpaDevicesFamily>Universal</IpaDevicesFamily>
+    <IpaSupportedLanguages />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="index.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="main.html" />
+    <Content Include="index.css" />
+    <Content Include="cordova.js" />
+    <Content Include="index.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="layouts\Navbar\NavbarLayout.css" />
+    <Content Include="layouts\Navbar\NavbarLayout.html" />
+    <Content Include="layouts\Navbar\NavbarLayout.js" />
+    <Content Include="layouts\Pivot\PivotLayout.css" />
+    <Content Include="layouts\Pivot\PivotLayout.html" />
+    <Content Include="layouts\Pivot\PivotLayout.js" />
+    <Content Include="layouts\SlideOut\SlideOutLayout.css" />
+    <Content Include="layouts\SlideOut\SlideOutLayout.html" />
+    <Content Include="layouts\SlideOut\SlideOutLayout.js" />
+    <Content Include="layouts\Empty\EmptyLayout.css" />
+    <Content Include="layouts\Empty\EmptyLayout.html" />
+    <Content Include="layouts\Empty\EmptyLayout.js" />
+    <Content Include="layouts\Simple\SimpleLayout.css" />
+    <Content Include="layouts\Simple\SimpleLayout.html" />
+    <Content Include="layouts\Simple\SimpleLayout.js" />
+    <Content Include="layouts\Split\SplitLayout.css" />
+    <Content Include="layouts\Split\SplitLayout.html" />
+    <Content Include="layouts\Split\SplitLayout.js" />
+    <Content Include="simplecounter.config.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="certificates\" />
+    <Folder Include="css\" />
+    <Folder Include="js\" />
+    <Folder Include="layouts\" />
+    <Folder Include="layouts\Empty\" />
+    <Folder Include="layouts\Navbar\" />
+    <Folder Include="layouts\Pivot\" />
+    <Folder Include="layouts\Simple\" />
+    <Folder Include="layouts\SlideOut\" />
+    <Folder Include="layouts\Split\" />
+    <Folder Include="Resources\" />
+    <Folder Include="views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleCounter.Shared\SimpleCounter.Shared.dxjsproj">
+      <Name>SimpleCounter.Shared</Name>
+      <Project>{c4f2c99e-0c21-4176-9303-6d0017569e85}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="certificates\android_certificate.p12" />
+    <None Include="Resources\PackageIcons.Android.ic_launcher_36_36.png" />
+    <None Include="Resources\PackageIcons.Android.ic_launcher_48_48.png" />
+    <None Include="Resources\PackageIcons.Android.ic_launcher_72_72.png" />
+    <None Include="Resources\PackageIcons.Android.ic_launcher_96_96.png" />
+    <None Include="Resources\PackageIcons.Android.splash_1280_720.png" />
+    <None Include="Resources\PackageIcons.Android.splash_200_320.png" />
+    <None Include="Resources\PackageIcons.Android.splash_320_200.png" />
+    <None Include="Resources\PackageIcons.Android.splash_320_480.png" />
+    <None Include="Resources\PackageIcons.Android.splash_480_320.png" />
+    <None Include="Resources\PackageIcons.Android.splash_480_800.png" />
+    <None Include="Resources\PackageIcons.Android.splash_720_1280.png" />
+    <None Include="Resources\PackageIcons.Android.splash_800_480.png" />
+    <None Include="Resources\PackageIcons.iOS.Default%402x~iphone.png" />
+    <None Include="Resources\PackageIcons.iOS.Default-568h%402x.png" />
+    <None Include="Resources\PackageIcons.iOS.Default~iphone.png" />
+    <None Include="Resources\PackageIcons.iOS.icon%402x.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-120.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-152.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-72%402x.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-72.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-76.png" />
+    <None Include="Resources\PackageIcons.iOS.icon.png" />
+    <None Include="Resources\PackageIcons.iOS.iTunesArtwork.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <Target Name="ResolveReferences">
+    <Message Text="Copying references to output dir..." Importance="high" />
+    <MSBuild Targets="Build" Projects="@(ProjectReference)" Properties="OutputPath=$([System.IO.Path]::GetFullPath('$(OutputPath)'))">
+    </MSBuild>
+  </Target>
+  <Target Name="CopyFilesToOutputDirectory">
+    <Message Text="Copying files to output dir..." Importance="high" />
+    <Copy SourceFiles="@(Content)" DestinationFiles="@(Content->'$(OutputPath)%(RelativeDir)%(Filename)%(Extension)')" />
+    <Copy SourceFiles="@(GeneratedJavascript->'%(Identity)')" DestinationFiles="@(GeneratedJavascript-&gt;'%(Identity)'-&gt;'$(OutputPath)%(RelativeDir)%(Filename)%(Extension)')" />
+  </Target>
+  <Target Name="CoreCompile">
+    <!--<Message Text="'$(MSBuildToolsPath)'"></Message>-->
+    <!--<Message Text="'$(BuildingProject)'"></Message>-->
+    <!--<Message Text="Build JSProject '$(MSBuildProjectFile)':" Importance="high"></Message>-->
+    <!--<Message Text="Finished Build JSProject '$(MSBuildProjectFile)'." Importance="high"></Message>-->
+  </Target>
+  <Target Name="CreateManifestResourceNames" Condition="'@(ResxWithNoCulture)@(ResxWithCulture)@(NonResxWithNoCulture)@(NonResxWithCulture)'!=''" />
+  <Target Name="Clean">
+    <!--
+    <Message Text="Cleaning Output files..." Importance="high" />
+    <Delete Files="@([System.IO.Path]::GetFullPath('$(OutputPath)'))" />
+    -->
+    <Message Text="Cleaning Output dir ($([System.IO.Path]::GetFullPath('$(OutputPath)')))..." Importance="high" />
+    <RemoveDir Directories="$([System.IO.Path]::GetFullPath('$(OutputPath)'))" />
+  </Target>
+</Project>

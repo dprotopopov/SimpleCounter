@@ -1,0 +1,126 @@
+﻿@font-face {
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Condensed Bold'), local('OpenSans-CondensedBold'), url(OpenSans-CondBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Iceberg';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Iceberg'), local('Iceberg-Regular'), url(Iceberg-Regular.ttf) format('truetype');
+}
+
+.counter-group {
+    margin: 30px auto;
+    display: inline-block;
+}
+
+    .counter-group:before,
+    .counter-group:after {
+        content: " ";
+        display: table;
+    }
+
+    .counter-group:after {
+        clear: both;
+    }
+
+.counter-block {
+    margin: 20px;
+}
+
+    .counter-block .counter {
+        position: relative;
+        overflow: hidden;
+        font-weight: 700;
+        font-family: 'Iceberg', 'Open Sans Condensed', 'Arial Narrow', 'Nimbus Sans L', sans-serif;
+    }
+
+        .counter-block .counter .number {
+            padding: 1%;
+            width: 46%;
+            height: 98%;
+            position: absolute;
+            top: -10000px;
+            text-align: center;
+            line-height: 1em;
+        }
+
+            .counter-block .counter .number.tens {
+                left: 0;
+            }
+
+            .counter-block .counter .number.units {
+                left: 50%;
+            }
+
+            .counter-block .counter .number.hundreds {
+                display: none;
+            }
+
+            .counter-block .counter .number.show {
+                top: 0;
+                z-index: 2;
+            }
+
+            .counter-block .counter .number.hidden-down {
+                top: 100%;
+            }
+
+            .counter-block .counter .number.hidden-up {
+                top: -100%;
+                z-index: 100;
+            }
+
+        .counter-block .counter.with-hundreds {
+            width: 640px;
+        }
+
+            .counter-block .counter.with-hundreds .number {
+                width: 30.66%;
+            }
+
+                .counter-block .counter.with-hundreds .number.tens {
+                    left: 33.33%;
+                }
+
+                .counter-block .counter.with-hundreds .number.units {
+                    left: 66.66%;
+                }
+
+                .counter-block .counter.with-hundreds .number.hundreds {
+                    display: block;
+                    left: 0;
+                }
+
+        .counter-block .counter.with-thousands {
+            width: 100%;
+        }
+
+            .counter-block .counter.with-thousands .number {
+                width: 23.33%;
+            }
+
+                .counter-block .counter.with-thousands .number.units {
+                    left: 75%;
+                }
+
+                .counter-block .counter.with-thousands .number.tens {
+                    left: 50%;
+                }
+
+                .counter-block .counter.with-thousands .number.hundreds {
+                    display: block;
+                    left: 25%;
+                }
+
+                .counter-block .counter.with-thousands .number.thousands {
+                    display: block;
+                    left: 0;
+                }
+
+    .counter-block .counter-caption {
+        font-size: 150%;
+    }
