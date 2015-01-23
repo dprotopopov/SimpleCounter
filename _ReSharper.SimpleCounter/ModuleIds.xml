@@ -1,0 +1,144 @@
+<Modules>
+  <Module PersistentId="8934C392-9A25-4ADB-B8C7-2D36808B98A9" ModuleId="SimpleCounter.Win8" />
+  <Module PersistentId="1C289AD4-A5CB-4060-A8A3-840E58B8A520" ModuleId="SimpleCounter.Win8Phone" />
+  <Module PersistentId="FB0F2D82-41B5-4C42-B367-721427DD8BEF" ModuleId="SimpleCounter.Win81" />
+  <Module PersistentId="C4F2C99E-0C21-4176-9303-6D0017569E85" ModuleId="SimpleCounter.Shared" />
+  <Module PersistentId="241F9A25-B90C-44EF-A193-216243EAA966" ModuleId="SimpleCounter.Desktop" />
+  <Module PersistentId="08820238-6E2F-42E5-86B3-4B36427797C2" ModuleId="SimpleCounter.Mobile" />
+  <Module PersistentId="Windows, Version=255.255.255.255, Culture=neutral, mvid=2dd3aebe-185e-4f24-a78f-57065ba4ccb6" ModuleId="Windows" />
+  <Module PersistentId="Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=31f9b087-2af2-4404-8bc5-9e04e8a7dfa7" ModuleId="Microsoft.CSharp" />
+  <Module PersistentId="Microsoft.Devices.Sensors, Version=8.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, mvid=81ed89aa-6b11-4b39-bafa-38d59cbb1e3b" ModuleId="Microsoft.Devices.Sensors" />
+  <Module PersistentId="Microsoft.Phone, Version=8.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, mvid=78559f91-ec88-49e5-b114-d5ecba88f2b0" ModuleId="Microsoft.Phone" />
+  <Module PersistentId="Microsoft.Phone.Interop, Version=8.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, mvid=3a1fb862-fd99-4e28-b23e-e300799e674c" ModuleId="Microsoft.Phone.Interop" />
+  <Module PersistentId="Microsoft.Phone.Maps, Version=8.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, mvid=79b34a91-57a1-4d0d-8625-4033a40414e4" ModuleId="Microsoft.Phone.Maps" />
+  <Module PersistentId="Microsoft.Phone.Reactive, Version=8.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, mvid=e0c5e501-20b0-4b4a-961c-5498f88a1d1a" ModuleId="Microsoft.Phone.Reactive" />
+  <Module PersistentId="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, mvid=e70f558d-5f26-4f0c-bd0f-424ff6ea3076" ModuleId="Microsoft.Xna.Framework" />
+  <Module PersistentId="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, mvid=5dd2587f-2d01-47d5-bc66-a563d1841c96" ModuleId="Microsoft.Xna.Framework.GamerServices" />
+  <Module PersistentId="Microsoft.Xna.Framework.GamerServicesExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, mvid=ab29735c-ad98-42e6-987f-2a579995e2a2" ModuleId="Microsoft.Xna.Framework.GamerServicesExtensions" />
+  <Module PersistentId="Microsoft.Xna.Framework.Input.Touch, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, mvid=74686769-7300-7465-5f44-6973706c6179" ModuleId="Microsoft.Xna.Framework.Input.Touch" />
+  <Module PersistentId="Microsoft.Xna.Framework.MediaLibraryExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, mvid=853900d4-b23c-4330-b969-730155e6f011" ModuleId="Microsoft.Xna.Framework.MediaLibraryExtensions" />
+  <Module PersistentId="mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, mvid=9cd72362-4015-4180-9802-0ca815df5a3d" ModuleId="mscorlib" />
+  <Module PersistentId="mscorlib.Extensions, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, mvid=0785f166-ea83-4c9b-a53c-b5f94f6258df" ModuleId="mscorlib.Extensions" />
+  <Module PersistentId="System.Collections, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=8fbc49c3-9082-456e-933b-f7c2bbee0f85" ModuleId="System.Collections" />
+  <Module PersistentId="System.ComponentModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=3af35175-e161-4ce6-bc56-2dd0ceffb514" ModuleId="System.ComponentModel" />
+  <Module PersistentId="System.ComponentModel.EventBasedAsync, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=bc2b3f39-6c95-4382-9fe8-4bfbffde42fa" ModuleId="System.ComponentModel.EventBasedAsync" />
+  <Module PersistentId="System.Core, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, mvid=5104740a-dcf8-42ae-9dc3-270ef630999b" ModuleId="System.Core" />
+  <Module PersistentId="System.Data.Linq, Version=8.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, mvid=8cb5477f-dfbc-4412-9a4d-bfac25a80e23" ModuleId="System.Data.Linq" />
+  <Module PersistentId="System.Device, Version=2.0.5.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, mvid=d82501ab-b7ba-4898-8288-107084c4d1cd" ModuleId="System.Device" />
+  <Module PersistentId="System.Diagnostics.Contracts, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=64573d42-94b6-4277-86f3-8fa96991bdc1" ModuleId="System.Diagnostics.Contracts" />
+  <Module PersistentId="System.Diagnostics.Debug, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=0c96a7d9-0c8f-471d-91f1-1ce12b17d6e8" ModuleId="System.Diagnostics.Debug" />
+  <Module PersistentId="System.Diagnostics.Tools, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=1dc38eaa-e896-428c-a844-53bc0aef567e" ModuleId="System.Diagnostics.Tools" />
+  <Module PersistentId="System, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, mvid=74e320ca-1f3a-49ea-bef5-f7c0b2e37374" ModuleId="System" />
+  <Module PersistentId="System.Dynamic.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=a009b7ce-4e01-43e4-9bce-d966a8c37ddd" ModuleId="System.Dynamic.Runtime" />
+  <Module PersistentId="System.Globalization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=8109c054-e4ad-4a44-bbd9-0412acbd69c8" ModuleId="System.Globalization" />
+  <Module PersistentId="System.IO, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=2517d883-6cb0-4afe-99d2-e6a683101a5f" ModuleId="System.IO" />
+  <Module PersistentId="System.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=f11f0bef-740b-418d-9dae-6ea6bd7b07cf" ModuleId="System.Linq" />
+  <Module PersistentId="System.Linq.Expressions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=6d87c4e6-9ec9-4088-971a-e2d4eee7c450" ModuleId="System.Linq.Expressions" />
+  <Module PersistentId="System.Linq.Queryable, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=56c5e496-d726-4672-8a42-11f0248d3478" ModuleId="System.Linq.Queryable" />
+  <Module PersistentId="System.Net, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, mvid=43d233a0-a3f7-4557-9a83-3ef1b48edce2" ModuleId="System.Net" />
+  <Module PersistentId="System.Net.NetworkInformation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=c836a4c7-c17f-46c8-9d37-3d9b947c78d6" ModuleId="System.Net.NetworkInformation" />
+  <Module PersistentId="System.Net.Primitives, Version=3.9.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=3b8a8cc7-ab60-4eea-bcaa-4126233ef83e" ModuleId="System.Net.Primitives" />
+  <Module PersistentId="System.Net.Requests, Version=3.9.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=bb74ef08-3907-4cc6-8a60-40c2870203b7" ModuleId="System.Net.Requests" />
+  <Module PersistentId="System.ObjectModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=b22438c6-f6a5-41cd-8790-972cc7c778ed" ModuleId="System.ObjectModel" />
+  <Module PersistentId="System.Observable, Version=2.0.5.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, mvid=4daa0dc0-c363-4fb6-b6ab-3618941797ee" ModuleId="System.Observable" />
+  <Module PersistentId="System.Reflection, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=94ea621d-7d0d-4f1c-b18b-9046e62045fa" ModuleId="System.Reflection" />
+  <Module PersistentId="System.Reflection.Emit.ILGeneration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=e6fa848e-b00e-4e42-b215-9c63648cacf5" ModuleId="System.Reflection.Emit.ILGeneration" />
+  <Module PersistentId="System.Reflection.Emit.Lightweight, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=f166edb1-e2c9-4dec-b788-0aee3d6e7c9a" ModuleId="System.Reflection.Emit.Lightweight" />
+  <Module PersistentId="System.Reflection.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=2af05c5c-3c2c-4ffa-a172-672075f4d719" ModuleId="System.Reflection.Extensions" />
+  <Module PersistentId="System.Reflection.Primitives, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=7ffa79c9-2190-4faf-8f4a-08782c0d11e7" ModuleId="System.Reflection.Primitives" />
+  <Module PersistentId="System.Resources.ResourceManager, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=adb2d10f-c90f-4109-8130-26aa207cfb16" ModuleId="System.Resources.ResourceManager" />
+  <Module PersistentId="System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=a6a64233-7a3b-4b4d-a7b4-f060d7e9de99" ModuleId="System.Runtime" />
+  <Module PersistentId="System.Runtime.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=a46d3e89-a4a7-467c-ab9e-9f08df16cb04" ModuleId="System.Runtime.Extensions" />
+  <Module PersistentId="System.Runtime.InteropServices.WindowsRuntime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=37a57e74-fcf8-402b-b06c-f75b7ce40dce" ModuleId="System.Runtime.InteropServices.WindowsRuntime" />
+  <Module PersistentId="System.Runtime.Serialization, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, mvid=30ce162a-6ece-4862-a086-f3adf26d1e14" ModuleId="System.Runtime.Serialization" />
+  <Module PersistentId="System.Runtime.Serialization.Json, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=0970efa5-8a98-490c-888d-beb96572f640" ModuleId="System.Runtime.Serialization.Json" />
+  <Module PersistentId="System.Runtime.Serialization.Primitives, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=d55dd06e-5857-4ce3-9090-70f702eb7d4b" ModuleId="System.Runtime.Serialization.Primitives" />
+  <Module PersistentId="System.Runtime.Serialization.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=f29d26f3-051c-46b4-b48d-0691522647c0" ModuleId="System.Runtime.Serialization.Xml" />
+  <Module PersistentId="System.Runtime.WindowsRuntime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=cc64203d-6c0c-441d-a4eb-3d055e5faf8d" ModuleId="System.Runtime.WindowsRuntime" />
+  <Module PersistentId="System.Security.Principal, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=44714477-6860-4b1a-a315-355ddb0b52b7" ModuleId="System.Security.Principal" />
+  <Module PersistentId="System.ServiceModel, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, mvid=3b79d891-f063-4842-a86a-7223ee9c96fd" ModuleId="System.ServiceModel" />
+  <Module PersistentId="System.ServiceModel.Http, Version=3.9.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=b09b0553-fb8e-4aa8-a9c6-64a5f3726932" ModuleId="System.ServiceModel.Http" />
+  <Module PersistentId="System.ServiceModel.Primitives, Version=3.9.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=6b87fbf2-2774-4756-9c45-799907078200" ModuleId="System.ServiceModel.Primitives" />
+  <Module PersistentId="System.ServiceModel.Security, Version=3.9.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=5f3d5f45-751a-4799-8b9d-8154f81b427d" ModuleId="System.ServiceModel.Security" />
+  <Module PersistentId="System.ServiceModel.Web, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, mvid=0787c23f-9dbf-48f2-b81f-4ef944a02c0e" ModuleId="System.ServiceModel.Web" />
+  <Module PersistentId="System.Text.Encoding, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=ab3267d7-6aa6-457c-a7f5-ea02bb326adc" ModuleId="System.Text.Encoding" />
+  <Module PersistentId="System.Text.Encoding.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=da430bc2-b4f4-4d66-977e-9e8c8d4ed959" ModuleId="System.Text.Encoding.Extensions" />
+  <Module PersistentId="System.Text.RegularExpressions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=17a5b617-f4c4-454e-bc14-be0c5c6fcf8c" ModuleId="System.Text.RegularExpressions" />
+  <Module PersistentId="System.Threading, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=36eb1acf-9837-498f-ad3a-f09fa4b0e54c" ModuleId="System.Threading" />
+  <Module PersistentId="System.Threading.Tasks, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=38efc2e0-0455-4544-93fc-d7bba91c501a" ModuleId="System.Threading.Tasks" />
+  <Module PersistentId="System.Windows, Version=2.0.6.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, mvid=31a363dd-3faf-4e7d-ad2d-60a6c81775d2" ModuleId="System.Windows" />
+  <Module PersistentId="System.Xml, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, mvid=744e20d7-5b79-4308-9227-80dddfd9aeac" ModuleId="System.Xml" />
+  <Module PersistentId="System.Xml.Linq, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, mvid=49489952-c9c5-42af-8411-ae3dc8ea3591" ModuleId="System.Xml.Linq" />
+  <Module PersistentId="System.Xml.ReaderWriter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=698bd06b-1ca7-4d2d-bcfb-0f6b308df8c8" ModuleId="System.Xml.ReaderWriter" />
+  <Module PersistentId="System.Xml.Serialization, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, mvid=7b7b4b66-091d-466e-a6d4-5b2074a35f6b" ModuleId="System.Xml.Serialization" />
+  <Module PersistentId="System.Xml.XDocument, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=82c4c59a-230e-4e91-8e95-6ad1b2369693" ModuleId="System.Xml.XDocument" />
+  <Module PersistentId="System.Xml.XmlSerializer, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=7c76bf29-90f5-41d4-821f-0c68809fe4d8" ModuleId="System.Xml.XmlSerializer" />
+  <Module PersistentId="Windows, Version=255.255.255.255, Culture=neutral, mvid=b4365002-3597-4ad9-95b4-051fa72c19eb" ModuleId="Windows_2" />
+  <Module PersistentId="d:Microsoft.WinJS.1.0" ModuleId="Microsoft.WinJS.1.0" />
+  <Module PersistentId="Windows, Version=255.255.255.255, Culture=neutral, mvid=a327ea32-bbfd-46b9-a970-a7f324bb7169" ModuleId="Windows_1" />
+  <Module PersistentId="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=201f7412-5e53-4cf1-a1d3-214a6ff9f2e8" ModuleId="mscorlib_1" />
+  <Module PersistentId="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=75e45731-36ab-4712-95dc-e2a83762be1b" ModuleId="mscorlib_2" />
+  <Module PersistentId="System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=bbe7534f-c540-4dfe-9d7a-e48545bb9c9c" ModuleId="System.Runtime_1" />
+  <Module PersistentId="System.Threading.Tasks, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=e9ab78c3-2826-4769-8479-474f7fc10246" ModuleId="System.Threading.Tasks_1" />
+  <Module PersistentId="System.Threading.Tasks, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=39a3668f-4474-46c9-8c01-c6e1f974d17c" ModuleId="System.Threading.Tasks_2" />
+  <Module PersistentId="System.Runtime.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=aee37614-71cb-4927-9598-722d8dde29f7" ModuleId="System.Runtime.Extensions_1" />
+  <Module PersistentId="System.Runtime.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=a6b2e1c9-a253-4239-85b4-1ad7d3ad0922" ModuleId="System.Runtime.Extensions_2" />
+  <Module PersistentId="System.Collections, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=9bfcc640-fdb7-47d4-bf59-ade0ad170393" ModuleId="System.Collections_1" />
+  <Module PersistentId="System.Collections, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=8a6d5cc9-3b37-44ba-b857-b4298fa4e7ef" ModuleId="System.Collections_2" />
+  <Module PersistentId="System.Collections.Concurrent, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=d155fe28-87a7-47e0-a177-daa2e019eb5c" ModuleId="System.Collections.Concurrent" />
+  <Module PersistentId="System.Collections.Concurrent, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=275f4591-af66-4d25-a445-22968e79637a" ModuleId="System.Collections.Concurrent_1" />
+  <Module PersistentId="System.ObjectModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=51e1747b-697f-4315-809a-411403638468" ModuleId="System.ObjectModel_1" />
+  <Module PersistentId="System.ObjectModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=125adf4d-a9c1-4b62-b5e9-d107ee90ad1c" ModuleId="System.ObjectModel_2" />
+  <Module PersistentId="System.Runtime.InteropServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=77037dd6-3f9f-45db-8466-209f0d4404ed" ModuleId="System.Runtime.InteropServices" />
+  <Module PersistentId="System.Reflection, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=fce10e1d-e1fe-4d06-9938-a907c63cad09" ModuleId="System.Reflection_1" />
+  <Module PersistentId="System.Reflection, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=b01dfc8e-324d-43e1-963d-1247c230a094" ModuleId="System.Reflection_2" />
+  <Module PersistentId="System.IO, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=8fa36814-85e7-4014-9455-5f25b5d8e0ea" ModuleId="System.IO_1" />
+  <Module PersistentId="System.IO, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=8282aae1-d1ce-4e08-9fdd-817d0e4b5477" ModuleId="System.IO_2" />
+  <Module PersistentId="System.Text.Encoding, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=8d62a90f-49fb-48a3-ba80-e857557e3d9d" ModuleId="System.Text.Encoding_1" />
+  <Module PersistentId="System.Text.Encoding, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=bc714999-f870-4949-822a-3d0bea823513" ModuleId="System.Text.Encoding_2" />
+  <Module PersistentId="System.Reflection.Primitives, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=56d39ca9-1c32-4aa9-95e6-e8ed4d81b33e" ModuleId="System.Reflection.Primitives_1" />
+  <Module PersistentId="System.Reflection.Primitives, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=5183a02d-e9bd-4d1b-80e1-18e1b0281746" ModuleId="System.Reflection.Primitives_2" />
+  <Module PersistentId="System.Diagnostics.Tools, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=fa28d6c0-6aa9-46bd-a5fc-76d9600fc25f" ModuleId="System.Diagnostics.Tools_1" />
+  <Module PersistentId="System.Diagnostics.Tools, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=44aaf454-25a0-4dd9-a561-b41d8f902034" ModuleId="System.Diagnostics.Tools_2" />
+  <Module PersistentId="System.Diagnostics.Contracts, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=4d8053f6-c780-424a-8d45-6a29f712071e" ModuleId="System.Diagnostics.Contracts_1" />
+  <Module PersistentId="System.Diagnostics.Contracts, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=c8c9d619-8fc9-4d17-b2c1-271c1623f17f" ModuleId="System.Diagnostics.Contracts_2" />
+  <Module PersistentId="System.Diagnostics.Debug, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=721748a9-1c8a-449e-beac-7f27366fd99d" ModuleId="System.Diagnostics.Debug_1" />
+  <Module PersistentId="System.Diagnostics.Debug, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=fbe949e5-e32e-48ec-99af-4553444ab0d4" ModuleId="System.Diagnostics.Debug_2" />
+  <Module PersistentId="System.Diagnostics.Tracing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=f0f488d9-a7c0-44b3-a434-63a4556d16fa" ModuleId="System.Diagnostics.Tracing" />
+  <Module PersistentId="System.Globalization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=b95c2d36-a6e8-4600-9eef-432ae73b5923" ModuleId="System.Globalization_1" />
+  <Module PersistentId="System.Globalization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=8ff62501-498b-4ef5-ab36-5ec3d6397e7c" ModuleId="System.Globalization_2" />
+  <Module PersistentId="System.ComponentModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=5581bf2a-8b0b-49ac-9b3d-8561743d44ab" ModuleId="System.ComponentModel_1" />
+  <Module PersistentId="System.ComponentModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=c94e225b-5e62-4bed-9fa9-965fd5455414" ModuleId="System.ComponentModel_2" />
+  <Module PersistentId="System.Reflection.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=8cf0c3c9-e824-4f73-bbda-d021906f5df1" ModuleId="System.Reflection.Extensions_1" />
+  <Module PersistentId="System.Reflection.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=cd6bf72c-bea6-4d5e-841f-de7c1019f3e0" ModuleId="System.Reflection.Extensions_2" />
+  <Module PersistentId="System.Resources.ResourceManager, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=90cce965-ed1a-49f6-be22-90dade5a425c" ModuleId="System.Resources.ResourceManager_1" />
+  <Module PersistentId="System.Resources.ResourceManager, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=1bf929ab-1df3-4c1b-8790-a93c8c6bd4c0" ModuleId="System.Resources.ResourceManager_2" />
+  <Module PersistentId="System.Dynamic.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=afc2f6ef-dd34-4716-8a19-4cec7466c850" ModuleId="System.Dynamic.Runtime_1" />
+  <Module PersistentId="System.Dynamic.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=12ad7d0a-0db4-4559-be73-0a0385154c3e" ModuleId="System.Dynamic.Runtime_2" />
+  <Module PersistentId="System.Linq.Expressions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=acf19e7e-3c15-451c-a78a-4234faabd651" ModuleId="System.Linq.Expressions_1" />
+  <Module PersistentId="System.Linq.Expressions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=645ea263-de52-4fbc-9af8-6246eb180623" ModuleId="System.Linq.Expressions_2" />
+  <Module PersistentId="System.Runtime.InteropServices.WindowsRuntime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=79746972-7243-7469-6963-616c41747472" ModuleId="System.Runtime.InteropServices.WindowsRuntime_1" />
+  <Module PersistentId="System.Runtime.Serialization.Primitives, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=4a4fcd91-319d-40a5-86fb-06a8a75a2362" ModuleId="System.Runtime.Serialization.Primitives_1" />
+  <Module PersistentId="System.Runtime.Serialization.Primitives, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=f611bd04-9b3d-48d1-9107-ebe0862a6fd3" ModuleId="System.Runtime.Serialization.Primitives_2" />
+  <Module PersistentId="System.Security.Principal, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=ea81a00a-9fee-407f-b7e6-d18fe6de9326" ModuleId="System.Security.Principal_1" />
+  <Module PersistentId="System.Security.Principal, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=0b79d3e3-8cfe-4422-968a-6b58bbef567a" ModuleId="System.Security.Principal_2" />
+  <Module PersistentId="System.Text.Encoding.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=eed636bc-cf74-4235-bcbf-ee0d1473013a" ModuleId="System.Text.Encoding.Extensions_1" />
+  <Module PersistentId="System.Text.Encoding.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=55a65225-e71d-4658-bf45-03f7bae42dbf" ModuleId="System.Text.Encoding.Extensions_2" />
+  <Module PersistentId="System.Threading, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=90c84a28-1caa-425a-a44e-128fa504e704" ModuleId="System.Threading_1" />
+  <Module PersistentId="System.Threading, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=b085433d-bf42-4143-a596-90a6a44898bb" ModuleId="System.Threading_2" />
+  <Module PersistentId="System.Threading.Tasks.Parallel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=e4996e80-c2be-4076-b122-38d8bd088526" ModuleId="System.Threading.Tasks.Parallel" />
+  <Module PersistentId="System.Threading.Tasks.Parallel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=5f065717-b5c7-450b-8efd-249a94f29ada" ModuleId="System.Threading.Tasks.Parallel_1" />
+  <Module PersistentId="System.Runtime.WindowsRuntime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=b3e0efcd-b07d-4b08-8bbc-fc0734100200" ModuleId="System.Runtime.WindowsRuntime_1" />
+  <Module PersistentId="System.Runtime.WindowsRuntime.UI.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=483bec58-c514-431a-8fdb-a09d52dffd66" ModuleId="System.Runtime.WindowsRuntime.UI.Xaml" />
+  <Module PersistentId="System.Runtime.WindowsRuntime.UI.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=f1ecee98-4d79-4de0-bbde-3a76f773d6b1" ModuleId="System.Runtime.WindowsRuntime.UI.Xaml_1" />
+  <Module PersistentId="System.Runtime, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=5c7a12b3-82c9-4303-9340-c001a31f62c7" ModuleId="System.Runtime_2" />
+  <Module PersistentId="System.Runtime.InteropServices, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=2b860a38-c080-4773-9668-1286282f9e41" ModuleId="System.Runtime.InteropServices_1" />
+  <Module PersistentId="System.Diagnostics.Tracing, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=f95358f2-0a90-46e1-aece-4a05777a72e7" ModuleId="System.Diagnostics.Tracing_1" />
+  <Module PersistentId="System.Threading.Timer, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=416e81f7-5ea5-4220-81b1-6662c3cfa512" ModuleId="System.Threading.Timer" />
+  <Module PersistentId="System.Runtime.WindowsRuntime, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=4330f98b-44b8-4dc6-aeeb-cb4886ab743b" ModuleId="System.Runtime.WindowsRuntime_2" />
+  <Module PersistentId="d:Windows" ModuleId="Windows_3" />
+  <Module PersistentId="d:Microsoft.WinJS.2.0" ModuleId="Microsoft.WinJS.2.0" />
+  <Module PersistentId="d:Windows" ModuleId="Windows_4" />
+  <Module PersistentId="22912BB2-3FF9-4D55-B4DB-D210B6035D4C" ModuleId="[Общие файлы проектов MSBuild]" />
+  <Module PersistentId="919FD655-F067-4BA2-B932-D926E85DD6B4" ModuleId="Документы скриптов" />
+</Modules>

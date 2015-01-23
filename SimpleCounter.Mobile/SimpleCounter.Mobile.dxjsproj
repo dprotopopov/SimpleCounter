@@ -10,14 +10,14 @@
     <Name>SimpleCounter.Mobile</Name>
     <DebugSitePortNumber>50000</DebugSitePortNumber>
     <UseWebDev>False</UseWebDev>
-    <DefaultDevice>androidPhone</DefaultDevice>
+    <DefaultDevice>win8Phone</DefaultDevice>
     <DeviceOrientation>Landscape</DeviceOrientation>
     <XapPackagePublisherID>{b3d0bf75-a4a7-4852-932d-baf73e6fe56e}</XapPackagePublisherID>
     <XapPackageProductID>{2ab34b3d-17e1-4245-beb4-812c3d9f8b1b}</XapPackageProductID>
     <ScreenOrientation>Landscape</ScreenOrientation>
     <ApplicationTitle>Tap To Count</ApplicationTitle>
     <BundleIdentifier>SimpleCounter.Mobile</BundleIdentifier>
-    <VersionPackage>1.0</VersionPackage>
+    <VersionPackage>1.0.2</VersionPackage>
     <ShowSplashScreen>True</ShowSplashScreen>
     <Accelerometer>False</Accelerometer>
     <Camera>False</Camera>
@@ -36,7 +36,7 @@
     <KeyApkPath>certificates\android_certificate.p12</KeyApkPath>
     <KeyApkAlias>tmpl</KeyApkAlias>
     <ApkDexFilePackageName>app.id_0ad6010554314703a6b472478f8f203d</ApkDexFilePackageName>
-    <VersionCode>1</VersionCode>
+    <VersionCode>3</VersionCode>
     <TemplateFileApk />
     <UseCustomTemplateNameApk>False</UseCustomTemplateNameApk>
     <KeyIpaPath />
@@ -45,7 +45,22 @@
     <TemplateFileIpa />
     <UseCustomTemplateNameIpa>False</UseCustomTemplateNameIpa>
     <IpaDevicesFamily>Universal</IpaDevicesFamily>
-    <IpaSupportedLanguages />
+    <IpaSupportedLanguages>ru</IpaSupportedLanguages>
+    <TemplateFileXap />
+    <UseCustomTemplateNameXap>False</UseCustomTemplateNameXap>
+    <XapSupportedLanguages>ru</XapSupportedLanguages>
+    <DefaultLanguageXAP>en-US</DefaultLanguageXAP>
+    <AuthorKeyWgtPath>certificates\tizen-sdk.p12</AuthorKeyWgtPath>
+    <DistributorKeyWgtPath />
+    <Links>
+      <LinkDescription xmlns="">
+        <Project>1c289ad4-a5cb-4060-a8a3-840e58b8a520</Project>
+        <Path>www</Path>
+      </LinkDescription>
+    </Links>
+    <WgtPackageId>vz7IbMm6zn</WgtPackageId>
+    <PhoneGapTokenKey>qJLp5sJtnm48zsczfhTZ</PhoneGapTokenKey>
+    <KeyDebuggable>False</KeyDebuggable>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -111,6 +126,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="certificates\android_certificate.p12" />
+    <None Include="config.xml" />
     <None Include="Resources\PackageIcons.Android.ic_launcher_36_36.png" />
     <None Include="Resources\PackageIcons.Android.ic_launcher_48_48.png" />
     <None Include="Resources\PackageIcons.Android.ic_launcher_72_72.png" />
@@ -125,15 +141,33 @@
     <None Include="Resources\PackageIcons.Android.splash_800_480.png" />
     <None Include="Resources\PackageIcons.iOS.Default%402x~iphone.png" />
     <None Include="Resources\PackageIcons.iOS.Default-568h%402x.png" />
+    <None Include="Resources\PackageIcons.iOS.Default-568h%402x~iphone.png" />
+    <None Include="Resources\PackageIcons.iOS.Default-667h.png" />
+    <None Include="Resources\PackageIcons.iOS.Default-736h.png" />
+    <None Include="Resources\PackageIcons.iOS.Default-Landscape%402x~ipad.png" />
+    <None Include="Resources\PackageIcons.iOS.Default-Landscape-736h.png" />
+    <None Include="Resources\PackageIcons.iOS.Default-Landscape~ipad.png" />
+    <None Include="Resources\PackageIcons.iOS.Default-Portrait%402x~ipad.png" />
+    <None Include="Resources\PackageIcons.iOS.Default-Portrait~ipad.png" />
     <None Include="Resources\PackageIcons.iOS.Default~iphone.png" />
     <None Include="Resources\PackageIcons.iOS.icon%402x.png" />
     <None Include="Resources\PackageIcons.iOS.icon-120.png" />
     <None Include="Resources\PackageIcons.iOS.icon-152.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-60%402x.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-60%403x.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-60.png" />
     <None Include="Resources\PackageIcons.iOS.icon-72%402x.png" />
     <None Include="Resources\PackageIcons.iOS.icon-72.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-76%402x.png" />
     <None Include="Resources\PackageIcons.iOS.icon-76.png" />
     <None Include="Resources\PackageIcons.iOS.icon.png" />
     <None Include="Resources\PackageIcons.iOS.iTunesArtwork.png" />
+    <None Include="Resources\PackageIcons.Tizen.icon_117_117.png" />
+    <None Include="Resources\PackageIcons.WP.ApplicationIcon_99_99.png" />
+    <None Include="Resources\PackageIcons.WP.Background.png_144_144.png" />
+    <None Include="Resources\PackageIcons.WP.SplashScreenImage_768_1280.jpg" />
+    <None Include="Resources\PackageIcons.WP.TileMedium.png" />
+    <None Include="Resources\PackageIcons.WP.TileSmall.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
   <Target Name="ResolveReferences">
